@@ -1,5 +1,6 @@
 import './App.css'
 import Nav from './components/Nav'
+import Features from './pages/Features'
 import Hero from './pages/Hero'
 
 function App() {
@@ -7,8 +8,7 @@ function App() {
     <main className = 'max-container px-16'>
       <Nav></Nav>
       <Hero></Hero>
-      <div>hero</div>
-      <div>features</div>
+      <Features></Features>
       <div>footer</div>
     </main>
   )
