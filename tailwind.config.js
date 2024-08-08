@@ -6,6 +6,9 @@ export default {
   ],
   theme: {
     extend: {
+      fontSize: {
+        64:'64px'
+      },
       fontFamily:{
         ibm: ['IBM Plex Mono'],
         inter: ['Inter'],
