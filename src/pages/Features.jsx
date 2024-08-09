@@ -42,8 +42,8 @@ const Features = () => {
         </div>
       </div>
 
-      {/* feature 1 */}
-      <div className="relative flex flex-row mt-[290px]">
+      {/* feature 3 */}
+      <div className="relative flex flex-row mt-[280px]">
         <div className="">
             <img src = {clock}></img>
         </div>
