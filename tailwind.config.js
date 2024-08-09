@@ -17,7 +17,6 @@ export default {
         "yellow": "#FFFB47",
         "cream": "#FFF5EA",
         "purple": "#9747FF",
-        "money":"#37AB00"
       }
     },
   },
