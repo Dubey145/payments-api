@@ -1,6 +1,7 @@
 import React from "react";
 import { dollar, line } from "../assets/icons";
 import { clock, globe } from "../assets/images";
+import Button from "../components/Button";
 
 const Features = () => {
   return (
@@ -45,13 +46,21 @@ const Features = () => {
       {/* feature 3 */}
       <div className="relative flex flex-row mt-[280px]">
         <div className="">
-            <img src = {clock}></img>
+          <img src={clock}></img>
         </div>
-        <div className="mt-20 flex flex-col items-center ml-16">
+        <div className="mt-20 flex flex-col items-start ml-16">
           <h1 className="text-64 font-bold font-ibm">
-            Time is money.
+            Time is
+            <span className="inline-block ml-6 px-5 bg-green-200 text-green-600 ">
+              money.
+            </span>
           </h1>
-          <p className = "font-inter text-2xl mt-5">Real-time transfers and payouts <span className = "font-bold">WORLDWIDE!</span></p>
+          <p className="font-inter text-2xl mt-5">
+            Real-time transfers and payouts{" "}
+            <span className="font-bold">WORLDWIDE!</span>
+          </p>
+          <div className = "mt-20"></div>
+            <Button text = {"Get Started"}></Button>
         </div>
       </div>
     </section>
