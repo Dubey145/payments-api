@@ -9,7 +9,7 @@ const Nav = () => {
       <div>
         <img src={logo}></img>
       </div>
-      <div className="w-full flex flex-row gap-20 justify-end items-center font-inter text-base">
+      <div className="w-full lg:flex flex-row gap-20 justify-end items-center font-inter text-base hidden">
         {navItems.map((item) => {
           return (
             <p key={item} className="px-[10px]">

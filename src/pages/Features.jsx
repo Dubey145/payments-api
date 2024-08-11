@@ -7,11 +7,11 @@ const Features = () => {
   return (
     <section>
       {/* feature 1 */}
-      <div className="relative flex flex-row mt-[170px]">
-        <div className="w-3/5 h-[350px] bg-black"></div>
-        <div className="absolute -top-2 -left-2 w-3/5 h-[350px] bg-purple border-4 border-black p-6">
-          <div className="flex flex-row gap-10 justify-center">
-            <img src={dollar}></img>
+      <div className="relative flex flex-col lg:flex-row mt-[170px]">
+        <div className="w-full lg:w-3/5 h-[350px] bg-black"></div>
+        <div className="absolute -top-2 -left-2 w-full lg:w-3/5 h-[350px] bg-purple border-4 border-black p-6">
+          <div className="flex flex-row xl:gap-10 gap-8 justify-center w-full xl:scale-90 lg:scale-75 ">
+            <img className = "object-cover" src={dollar}></img>
             <img src={line}></img>
             <img src={dollar}></img>
           </div>
@@ -21,7 +21,7 @@ const Features = () => {
             </h1>
           </div>
         </div>
-        <div className="w-2/5 flex justify-center items-center">
+        <div className="w-2/5 flex justify-center items-center lg:pl-5 xl:pl-0">
           <h1 className="text-[40px] font-inter">
             Cheap fees <span className="font-bold">transfer</span>,
             <br /> no fixed cents.
